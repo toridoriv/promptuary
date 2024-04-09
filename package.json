@@ -1,5 +1,12 @@
 {
   "name": "@toridoriv/promptuary",
   "description": "My personal library and command line application for prompt engineering and analysis.",
-  "version": "0.1.0"
+  "version": "0.1.0",
+  "type": "module",
+  "devDependencies": {
+    "@toridoriv/eslint-config": "github:toridoriv/eslint-config",
+    "@types/node": "^20.12.7",
+    "eslint": "^8.57.0",
+    "typescript": "^5.4.5"
+  }
 }
